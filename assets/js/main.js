@@ -179,7 +179,8 @@ function resolver(e){
             resultadoOp = parseFloat(numeroA) / parseFloat(numeroB);
         }
         else{
-            alert("Error de sintaxis");
+            // alert("Error de sintaxis");
+            resultadoOp = 'Error de sintaxis';
         }
     }
     else if(operacion =="^"){
